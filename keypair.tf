@@ -1,0 +1,7 @@
+# keypair.tf
+# Part of the keypair Terraform configuration module.
+
+resource "aws_key_pair" "deployer" {
+  key_name   = "clientproject-key-staging"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDmCJNT9mTdL6+p8aLut9XLTWGDq47AnSa4h56x1Ejps9hpL+pPM7A8PG6NaUmAhxWJYbNBHOdIYW4OfkacmzEBi3GKHW7KCbS0+AIAe/5vZMuOebzPbbGi+rZGglM0Z0y1ruaAt6cjkZDoUvAnpUPUTWQgXkhNY8Y1Cfes7pKM6ch1yNIHrA8cqViCheED3yD08jbchFOTmv/DFnxq302ATMMMZ3X2XKoYsxka/LC9ah3ASjcTt0Riv/arcLCekRXw8PuO52TuNgcB3amufBIB6h5aRHW/aYoXWrHymar1r5DO5ubyG5qdjyZQaNHYVI5YZVjgK6dwT0I/zL7kIYQBKpD4QJ/xQdtu1KCU/ijcwoRDUE+u2HEMC/6A/MsdjA/gb2dzepWHfEk14OX/bkjDmEykFZvG7HUbn9HumaI8ze1xctDEcjgGg+C8mb43yS7kAAB2W86Q6dwqx1i0enyAPPyYeY56zGTWIR3IK0VyS0bk/zfn7Tdm2rGvsPGyIZk= jhugo@joao-hugo"
+}
